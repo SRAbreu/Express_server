@@ -8,7 +8,7 @@ var PORTTWO = 7500;  //bad mouth
 
 // Func for server1: Create a generic function to handle requests and responses
 function handleRequestOne(request, response) { //whats the request? req to the url.
-
+//
   // Send the below string to the client when the user visits the PORT URL
   response.end("You are a javascript wizard! " + request.url);
 } //creates the strung & sends it back to the browser.
@@ -16,12 +16,13 @@ function handleRequestOne(request, response) { //whats the request? req to the u
 
 // Func for server2: Create a generic function to handle requests and responses
 function handleRequestTwo(request, response) { //whats the request? req to the url.
-
+//console.log(request.url);
   // Send the below string to the client when the user visits the PORT URL
   response.end("I guess javasccript is not your forte! " + request.url);
 } //creates the strung & sends it back to the browser.
 //this sends back to the html/browser.
-=====================================
+
+//=====================================
 
 // Use the Node HTTP package to create our server.
 // Pass the handleRequest function to empower it with functionality.
